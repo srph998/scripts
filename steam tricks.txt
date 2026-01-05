@@ -1,0 +1,5 @@
+var formData = new FormData(); formData.append("input_protobuf_encoded", ""); var xhr = new XMLHttpRequest(); const token = JSON.parse(document.getElementById("application_config").readAttribute("data-loyaltystore")).webapi_token; xhr.open("POST", "https://api.steampowered.com/IPlayerService/SetFavoriteBadge/v1?access_token=" + token); xhr.send(formData);
+
+invisible character = "󠀡󠀡"
+
+cm/360 = 20
